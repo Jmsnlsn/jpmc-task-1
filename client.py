@@ -43,10 +43,11 @@ def getRatio(price_a, price_b):
     """ Get ratio of price_a and price_b """
     #This is accomplished with the return function at the bottom
     """ ------------- Update this function ------------- """
-    if (price_b == 0)
+    if (price_b == 0):
         #when price_b is 0 avoid throwing ZeroDivisionError
         return("This price does not work, please try again.")
-    return price_a/price_b
+    else:
+        return price_a/price_b
 
 
 # Main
